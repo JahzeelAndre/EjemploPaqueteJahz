@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>EjemploPaqueteJahzSuma</AssemblyName>
+    <RootNamespace>EjemploPaqueteJahzSuma</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>JahzeelAndre.EjemploPaqueteJahzSuma</PackageId>
+    <Title>EjemploPaqueteJahzSuma</Title>
+    <Version>1.0.0</Version>
+    <Authors>JahzeelAndre</Authors>
+    <Company>JahzeelAndre</Company>
+    <Product>EjemploPaqueteJahzSuma</Product>
+    <Description>Este paquete ayudar a realizar operaciones básicas matemáticas.</Description>
+    <PackageProjectUrl>https://github.com/JahzeelAndre/EjemploPaqueteJahzSuma</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JahzeelAndre/EjemploPaqueteJahzSuma</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Operaciones básicas, Suma, Resta, Multiplicación, División</PackageTags>
+    <PackageOutputPath>bin\Release\</PackageOutputPath>
+    <DebugType>embedded</DebugType>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README (1).md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\jahze\Downloads\README (1).md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
